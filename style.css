@@ -1,0 +1,188 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #6ed3cf;
+}
+
+.category-title {
+  text-align: center;
+  text-decoration: underline;
+  font-family: Arial
+}
+
+.category {
+  border-bottom: solid;
+  border-width: 5px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#location {
+  text-align: center;
+  background-color: black;
+  font-family: Arial;
+  color: #818181;
+  border: solid;
+  border-color: #818181;
+}
+
+#address {
+  margin: 0px;
+  padding-top: 20px;
+}
+
+#city {
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+}
+
+#description {
+  margin: 0px;
+  padding: 10px;
+}
+
+#photo_gallery {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 20px;
+}
+
+#description_paragraphs {
+  text-align: left;
+  font-size: 20px;
+  font-family: Arial
+}
+
+#maps_paragraphs {
+  text-align: left;
+  font-size: 20px;
+  font-family: Arial
+}
+
+#map {
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  height: 70%;
+  width: 50%;
+  border: solid;
+  border-color: #818181;
+  border-width: 4px;
+}
+
+
+/* The sidebar menu */
+.sidenavleft {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 190px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  border: solid;
+  border-color: #818181;
+}
+
+/* The navigation menu links */
+.sidenavleft ul {
+  padding: 6px 8px 0px 38px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenavleft li {
+  padding-top: 30px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenavleft ul li:hover {
+  color: #f1f1f1;
+}
+
+/* The sidebar menu */
+.sidenavright {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 190px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  border: solid;
+  border-color: #818181;
+}
+
+/* The navigation menu links */
+.sidenavright ul {
+  padding: 6px 8px 30px 38px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenavright ul li {
+  padding-top: 30px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenavright ul li:hover {
+  color: #f1f1f1;
+}
+
+
+/* CSS for smaller screen size */
+@media only screen and (max-width: 1000px) {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  #heading {
+    width: 100%;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  #photo_gallery {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #map {
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    height: 70%;
+    width: 90%;
+    border: solid;
+    border-color: #818181;
+    border-width: 4px;
+  }
+
+  .sidenavleft {
+    visibility: hidden;
+  }
+
+  .sidenavright {
+    visibility: hidden;
+  }
+}
+
