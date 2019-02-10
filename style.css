@@ -93,7 +93,7 @@ body {
 
 /* The navigation menu links */
 .sidenavleft ul {
-  padding: 6px 8px 0px 38px;
+  padding: 6px 30px 0px 38px;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
@@ -126,7 +126,7 @@ body {
 
 /* The navigation menu links */
 .sidenavright ul {
-  padding: 6px 8px 30px 38px;
+  padding: 6px 30px 30px 38px;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
